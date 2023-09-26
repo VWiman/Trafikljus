@@ -1,0 +1,57 @@
+* {
+        padding: 0px;
+        margin: 0px;
+}
+
+body {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.container {
+    width: 120px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.box {
+    height: 100px;
+    margin: auto;
+    border: 10px solid;
+}
+
+.box.red {
+    background-color: red;
+    border-color: darkred;
+}
+
+.box.yellow {
+    margin: 10px auto;
+    border-color: goldenrod;
+    background-color: yellow;
+}
+
+.box.green {
+    background-color: green;
+    border-color: darkgreen;
+}
+
+.inner-box {
+    height: 50px;
+}
+
+.inner-box.red {
+    background-color: lightcoral;
+    margin: 50% 0 0 0;
+}
+
+.inner-box.yellow {
+    background-color: rgb(243, 243, 183);
+    margin: 50% 0 0 50%;
+}
+
+.inner-box.green {
+    background-color: lightgreen;
+    margin: 50% 50% 0 0;
+}
